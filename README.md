@@ -432,3 +432,325 @@
         &lt;&lt;&lt;@JOAKIM &gt;&gt;&gt;
     </footer>
 </html>
+
+.logo{
+    width: 5%;
+    height: 5%;
+    padding-top:0%;
+    float: left;
+    transition: transform 0.5s;
+    border-radius: 50%;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+
+body{
+    background-image: url(back2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 97%;
+    width: 80%;
+    height: auto;
+}
+
+.heading{
+    font-style: italic;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 500%;
+    font-weight: 300;
+    padding-left: 30px;
+    text-align: center; 
+}
+span{
+    color: black;
+    font-weight: 200;
+    font-size: 50%;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    text-align: left;
+}
+
+nav ul li{
+    margin: 10px;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+    background-color:lightblue
+}
+
+h2{
+    color: rgba(158, 218, 236, 0.884);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 40%;
+    text-decoration: solid;
+}
+.abus{
+    padding-left: 10%;
+    font-size: 120%;
+}
+
+
+h3{
+    color: wheat;
+text-decoration: underline;
+font-size: 25px;
+padding-left: 20%;
+}
+
+.list2{
+    font-size:20px;
+    padding-left: 10%;
+    font-size: 120%;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second{
+    padding-left: 15%;
+     font-size: 100%;
+}
+
+
+img{
+    width: 30%;
+    height: 60%;
+    float:right;
+    border-radius: 25%;
+    transition: transform 0.2s;
+
+}
+img:hover{
+    transform: scale(1.4);
+}
+
+.list3{
+    font-size: 125%;
+    color:rgb(160, 4, 4);
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    
+}
+
+
+ table tr th {
+    border: 2px solid white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 125%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+table tr td {
+     border: 2px solid white;
+    text-align:center;
+    font-weight: 100;
+    font-size: 110%;
+    width: 200px;
+    height: 60px;
+     
+}
+
+.img1{
+    width: 30%;
+    height: 60%;
+    float: initial;
+    padding-left: 20px;
+    border-radius: 25%%;
+    padding-top: 20px;
+    transition: transform 0.5s;
+
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.third{
+    padding-left: 15%;
+}
+
+i{
+    color: red;
+    transition: transform 0.2s;
+    transition: color 0.2s;
+
+}
+i:hover{
+    transform: scale(2.0);
+    color:green;
+}
+
+.form{
+    color: rgb(191, 204, 9);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 40%;
+    text-decoration: solid;
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+.Info{
+    color:forestgreen ;
+}
+.burger{
+    font-size: 120%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.f1{
+    padding-left:20%;
+    font-size: 120%;
+    color:lightcoral;
+    text-align:center;
+}
+.burger{
+    color: wheat;
+}
+.label{
+    text-align: center;
+    color: whitesmoke;
+}
+.submit{
+    margin: 20px 20px;
+    color:forestgreen;
+    background-color: aliceblue;
+    border: 2px solid forestgreen;
+
+    transition: transform 0.3s;
+}
+.submit:hover{
+    transform: scale(2.0);
+}
+.make{
+    font-size: 120%;
+    padding-left: 27%;
+}
+
+#forms{
+border: 10px solid white;
+float: right;
+padding-right: 15%;
+width: 60%;
+background-image: url(burgerbackground.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#yepizza{
+border: 10px solid white;
+float: right;
+padding-right: 15%;
+width: 60%;
+background-image: url(pizzaBackground.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+color: white;
+}
+.info{
+    color:crimson;
+}
+.f2{
+    padding-left:20%;
+    font-size: 200%;
+    color:lightcoral;
+    text-align:center;
+}
+
+.sub{
+     margin: 20px 20px;
+    color:crimson;
+    background-color: aliceblue;
+    border: 2px solid crimson;
+    transition: transform 0.3s;
+}
+.sub:hover{
+    transform: scale(2.0);
+}
+
+#contact{
+   padding-top: 20%;
+}
+
+.media{
+    font-size: 120%;
+    padding-left: 50px;
+}
+.font i{
+    font-size: 100%;
+    padding-left: 40px;
+    color: wheat;
+    transition: color 0.2s;
+}
+.font i:hover{
+    color: lightblue;
+}
+
+footer{
+    text-align: center;
+    color: lightblue;
+}
+
+.top i{
+     border: 2px solid white;
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 20px;
+    float:initial;
+    text-align: center;
+    margin: 20px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+.top i:hover{
+    transform: scale(1.3);
+}
+.top{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    color: black;
+    font-size: 100%;
+    padding-left: 0%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
